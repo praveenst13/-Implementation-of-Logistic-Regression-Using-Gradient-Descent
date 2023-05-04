@@ -8,10 +8,12 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+     1.Use the standard libraries in python for finding linear regression.
+     2.Set variables for assigning dataset values. 
+     3.Import linear regression from sklearn. 
+     4.Predict the values of array.
+     5.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+     6.Obtain the graph.
 
 ## Program:
 ```
@@ -104,16 +106,44 @@ np.mean(predict(res.x,x)==y)
 ```
 
 ## Output:
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
-![logistic regression using gradient descent](sam.png)
+1. Array Value of x
+![logistic regression using gradient descent](x.png)
+
+2. Array Value of y
+![logistic regression using gradient descent](y.png)
+
+
+3. Exam 1 - score graph
+![logistic regression using gradient descent](e.png)
+
+
+4. Sigmoid function graph
+![logistic regression using gradient descent](s.png)
+
+
+5. X_train_grad value
+![logistic regression using gradient descent](x_t.png)
+
+
+6 Y_train_grad value
+![logistic regression using gradient descent](y_t.png)
+
+
+7. Print res.x
+![logistic regression using gradient descent](res.png)
+
+
+
+8. Decision boundary - graph for exam score
+![logistic regression using gradient descent](d.png)
+
+
+9. Proability value
+![logistic regression using gradient descent](prop.png)
+
+
+10. Prediction value of mean
+![logistic regression using gradient descent](pred.png)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
